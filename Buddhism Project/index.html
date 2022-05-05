@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<link rel="stylesheet" href="format.css" />
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Document</title>
+<meta http-equiv="refresh" content="5;URL=home_page.html">
+</head>
+<body>
+<h1>
+Patience, my friend.
+</h1>
+<p id="demo">
+
+</p>
+
+<script>
+var timer = 600;
+var x = setInterval(function() {
+    timer -= 1;
+    var minutes = Math.floor(timer / 60);
+    var seconds = Math.floor(timer % 60);
+    document.getElementById("demo").innerHTML = minutes + " minutes and " + seconds + " seconds";
+    if (timer < 0) {
+    clearInterval(x);
+    document.getElementById("demo").innerHTML = "EXPIRED" 
+}
+    }, 1000);
+</script>
+<h2>
+</div>
+</p>
+</h2>
+</body>
+</html>

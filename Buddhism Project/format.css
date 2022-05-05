@@ -1,0 +1,60 @@
+h1 {
+    text-align:center;
+    color: darkred;
+    font-size: 50px;
+    text-shadow: 2px 2px #e7a82b;
+    position:relative;
+    top:250px;
+    font-family:Georgia, 'Times New Roman', Times, serif
+}
+#demo {
+    text-align:center;
+    color: blue;
+    font-size: 60px;
+    text-shadow: 2px 2px gold;
+    position:relative;
+    top: 200px; 
+    font-weight: bold;
+    font-family:Georgia, 'Times New Roman', Times, serif
+    }
+
+#home {
+    color: darkslategrey;
+    text-align: center; 
+    font-size: 40px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    align-items:center;
+    justify-content:space-around;
+}
+
+#pic {
+    position:absolute;
+    top:0px
+}
+
+.memories {
+    top:100px;
+    color:blanchedalmond;
+    text-decoration: none;
+    border-width:.3em;
+    border-color: black;
+    
+}
+
+.quotes {
+    top:200px;
+    text-decoration: none;
+}
+
+.forms {
+    top:300px;
+    text-decoration: none;
+}
+a:link, a:visited {
+    background-color: hsl(4, 90%, 58%);
+    padding: 14px 25px;
+}
+
+a:hover, a:active {
+    background-color: red;
+}
